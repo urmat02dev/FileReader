@@ -1,0 +1,59 @@
+#to-do-list{
+  background: #d9810e;
+  min-height: 100vh;
+  min-width: 100vw;
+  h1{
+    text-align: center;
+    font-size: 30px;
+  }
+  .to-do-list{
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+
+    &--prev{
+
+      background: rgba(0, 0, 0, 0.63);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      input{
+        margin: 10px 0;
+        width: 350px;
+        height: 35px;
+        padding: 0 5px;
+      }
+      button{
+        width: 100px;
+        height: 40px;
+        color: yellow;
+      }
+
+
+    }
+    &--next{
+      &--result{
+        div{
+
+          width: 500px;
+          height: 400px;
+          background: rgba(0, 0, 0, 0.63);
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          input{
+            margin: 10px 0;
+            width: 350px;
+            height: 35px;
+            padding: 0 5px;
+          }
+        }
+
+
+      }
+      }
+
+    }
+  }
